@@ -1,6 +1,7 @@
 public class LcsDp{
     public static int max(int a,int b){
-        return a>b?a:b;
+        mx=a>b?a:b;
+        return mx;
     }
     public static int Lcs(String p, String q, int m,int n){
         int result[][]= new int[n+1][m+1];
